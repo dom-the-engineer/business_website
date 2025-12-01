@@ -1,0 +1,83 @@
+body {
+margin: 0;
+font-family: "Poppins", sans-serif;
+background: linear-gradient(135deg, #4facfe, #00f2fe);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+.container {
+background: #fff;
+padding: 30px;
+border-radius: 20px;
+width: 350px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+animation: fadeIn 0.6s ease;
+}
+
+
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(20px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+h1 {
+margin-top: 0;
+text-align: center;
+}
+
+
+.subtitle {
+text-align: center;
+color: #666;
+margin-bottom: 20px;
+}
+
+
+.input-group {
+margin-bottom: 15px;
+}
+
+
+.input-group label {
+display: block;
+margin-bottom: 5px;
+}
+
+
+input, select {
+width: 100%;
+padding: 12px;
+border-radius: 10px;
+border: 1px solid #ccc;
+font-size: 14px;
+}
+
+
+.btn {
+width: 100%;
+padding: 12px;
+border: none;
+background: #4facfe;
+color: white;
+font-size: 16px;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+
+.btn:hover {
+background: #00c6ff;
+}
+
+
+#responseMsg {
+margin-top: 15px;
+text-align: center;
+font-weight: bold;
+}
